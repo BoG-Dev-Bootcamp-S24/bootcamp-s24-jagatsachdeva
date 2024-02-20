@@ -1,0 +1,148 @@
+html, body {
+  height: 100%;
+}
+
+#root {
+  height: 100%;
+}
+
+.App {
+  height: 100%;
+  width: 100%;
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#firstHalf {
+  height: 100%;
+  width: 50%;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#PokemonIdentifiersContainer {
+  display:flex;
+  flex-direction:column;
+  width: 50%;
+}
+
+#PokemonIdentifiersContent {
+  display:flex;
+  flex-direction:column;
+}
+
+#pokemonImage {
+  width: 100%;
+  border: 2px solid black;
+}
+
+#nextPokemonButtons {
+  height: 30%;
+  width: 100%;
+  display:flex;
+  justify-content: center;
+  padding-top: 10px;
+}
+
+button {
+  width: 40%;
+  height: 100%;
+  background-color: rgb(230, 230, 230);
+  border: none;
+  padding: 2px;
+  margin: 7px;
+  border-radius: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2em;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif
+}
+
+#pokemonName {
+  background-color: rgb(230, 230, 230);
+  border: 1px solid;
+  padding: 5px;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 2em;
+}
+
+#typesText {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin: 0px;
+  margin-top: 3px;
+}
+
+#typesList {
+  display:flex;
+  flex-direction:row;
+}
+
+#singleType {
+  display:flex;
+  font-size: 1.1em;
+  margin: 0px;
+  margin-top: 10px;
+  margin-bottom: 8px;
+  margin-right: 8px;
+  background-color: rgb(230, 230, 230); /* CHANGE TO CUSTOM */
+  padding:3px 8px;
+  border-radius:5px;
+}
+
+#secondHalf {
+  height: 100%;
+  width: 50%;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.totalInfoMovesContainer {
+  display:flex;
+  width: 50%;
+  height: 65%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center
+}
+
+.infoMovesBox {
+  background-color:rgb(230, 230, 230);
+  width: 100%;
+  height: 100%;
+  overflow:auto;
+  display: flex;
+  flex-direction: column;
+}
+
+#infoMovesButtonsContainer {
+  height: 4%;
+  width: 50%;
+  display:flex;
+  justify-content: center;
+  margin-top: 12px;
+}
+
+.secondHalfTitle {
+  font-weight:bold;
+  font-size: 2em;
+  margin: 5%;
+}
+
+.statString {
+  margin: 1%;
+  margin-left: 10%;
+  font-size: 1.5em;
+}
+
+.textContainer {
+  overflow:auto;
+}
