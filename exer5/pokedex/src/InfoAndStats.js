@@ -38,9 +38,9 @@ export const InfoAndStats = ({ data }) => {
         if (data && data.moves) {
             return (
                 data.moves.map((currentMoveObject, index) => (
-                  <div key={index} style={{ marginTop: index === 0 ? '20px' : '0' }}>
+                <div key={index} style={{ marginTop: index === 0 ? '20px' : '0', marginBottom: index === (currentMoveObject.length - 1) ? '20px' : '0' }}>
                     <p className="statString">{currentMoveObject.move.name}</p>
-                  </div>
+                </div>
                 ))
             );
         } else {
